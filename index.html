@@ -302,7 +302,7 @@
     </footer>
 
     <script>
-        // Simple script for number animation on scroll - for presentation only
+        
         document.addEventListener('DOMContentLoaded', () => {
             const counters = document.querySelectorAll('.metric-value');
             
@@ -330,7 +330,7 @@
                             }
                         };
                         updateCounter();
-                        observer.unobserve(counter); // Animate only once
+                        observer.unobserve(counter); 
                     }
                 });
             }, { threshold: 0.8 });
